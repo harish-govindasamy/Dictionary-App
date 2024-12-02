@@ -1,0 +1,45 @@
+body {
+  background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  font-family: "comic sans ms", cursive;
+  font-weight: bold;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#result {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+  font-family: "comic sans ms", cursive;
+  font-weight: bold;
+}
+
+.btn {
+  font-family: "comic sans ms", cursive;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  color: #000;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

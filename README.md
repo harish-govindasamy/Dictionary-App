@@ -28,29 +28,21 @@ The Interactive Dictionary App is a simple and user-friendly web application tha
    ```
 3. Open
 
-index.html
-
-in your web browser.
+index.html in your web browser.
 
 ## File Structure
 
 -
 
-index.html
-
-: The main HTML file that contains the structure of the app.
+index.html : The main HTML file that contains the structure of the app.
 
 -
 
-styles.css
-
-: The CSS file for custom styles.
+styles.css : The CSS file for custom styles.
 
 -
 
-script.js
-
-: The JavaScript file that contains the logic for fetching and displaying word definitions.
+script.js : The JavaScript file that contains the logic for fetching and displaying word definitions.
 
 ## Code Explanation
 
@@ -68,18 +60,10 @@ The JavaScript file contains the following functions:
 
 -
 
-fetchWordDefinition(word)
-
-: Fetches the word definition from the dictionary API using the
-
-fetch
-
-API and returns a promise.
+fetchWordDefinition(word) : Fetches the word definition from the dictionary API using the fetch API and returns a promise.
 
 -
 
-displayWordDefinition(wordData)
-
-: Displays the fetched word definition in the result area.
+displayWordDefinition(wordData) : Displays the fetched word definition in the result area.
 
 - `handleSearchButtonClick()`: Handles the search button click event, fetches the word definition, and displays it.
